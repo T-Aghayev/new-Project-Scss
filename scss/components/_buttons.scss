@@ -1,0 +1,57 @@
+.btn {
+   background-color: transparent;
+   border: 1px solid transparent;
+   // border-radius: $br-s;
+   cursor: pointer;
+   
+   &.btn-s {
+    padding: 5px 16px;
+   }
+   &.btn-m {
+    padding: 9px 16px;
+    
+    background-color: $secondary-900;
+   }
+   &.btn-l {
+    padding: 16px 24px; 
+   }
+   &.btn-primory {
+      
+      color: white;
+    background-color: red;
+        
+
+      &:focus {
+         border: 1px solid $border-focus;
+      }
+    
+
+      &:disabled {
+         opacity: 0.4;
+      }
+   }
+   &.btn-secondary {
+      border-color: rgb(26, 1, 1);
+      
+      border-radius: $br-s;
+      background-color: $primory-600;
+
+     
+      }
+
+      
+
+   }  
+   // &.btn-minimal {
+   //    border: 1px solid transparent;
+   // } 
+
+   
+//header//
+   // &.btn-with-icon {
+   //       display: flex;
+   //       align-items: center;
+   //       gap: 8px;
+   // }
+
+  
