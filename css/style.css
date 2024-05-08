@@ -66,7 +66,7 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0px auto;
   padding: 0px 10px;
 }
@@ -82,7 +82,11 @@
   margin-left: 45px;
   border: solid;
   border-radius: 70px;
-  padding: 6px;
+  padding: 2px;
+}
+.container .main_line {
+  display: flex;
+  justify-content: space-between;
 }
 .container .img_height {
   height: 18px;
@@ -94,6 +98,7 @@
 }
 .container .none_border {
   border: none;
+  background-color: transparent;
 }
 .container .main_filter {
   margin-right: 40px;
@@ -114,18 +119,94 @@
 }
 .container .main_hight {
   height: 85px;
+  display: flex;
+  margin: auto;
 }
 .container .backgraund_two {
   background-color: #0a196f;
+  border-radius: 10px;
 }
 .container .backgraund_one {
   background-color: #54a6ff;
+  border-radius: 10px;
 }
 .container .main_text_color {
   color: white;
   padding: 15px 45px;
 }
-.container .main_line {
+.container .main_juj {
+  display: flex;
+}
+.container .border_none {
+  border-radius: 30px;
+  border: none;
+  background: transparent;
+}
+.container .cart_img {
+  height: 70px;
+}
+.container .main_card {
+  display: flex;
+  gap: 10px;
+}
+.container .card_width {
+  height: 25px;
+}
+.container .cart_end {
   display: flex;
   justify-content: space-between;
+}
+.container .cart_color {
+  color: #90a3bf;
+}
+.container .btn.btn-secondary {
+  background-color: #2a60b7;
+  display: flex;
+}
+.container .cart_heart {
+  height: 24px;
+}
+.container .another_type {
+  padding: 16px 0px;
+  color: #90a3bf;
+}
+.container .info {
+  display: flex;
+  gap: 10px;
+  padding: 20px 0px;
+}
+.container .actions_info {
+  display: flex;
+  align-items: center;
+}
+.container .page_backgraund {
+  color: #1a202c;
+}
+.container .mob_version {
+  display: flex;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .container .header_right {
+    display: none;
+  }
+  .container .header__actions {
+    display: none;
+  }
+  .container .main_right {
+    display: none;
+  }
+  .container .mob_version {
+    display: flex;
+  }
+}
+.container .carts_backgraund {
+  border-radius: 17px;
+  padding: 10px 15px;
+  background-color: #e0e9f4;
+}
+.container .more_info {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
 }/*# sourceMappingURL=style.css.map */

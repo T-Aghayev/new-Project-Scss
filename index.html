@@ -1,186 +1,762 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
     ></script>
-</head>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="container">
+      <div class="container">
+        <div class="main_flex">
+          <div>
+            <a class="main_logo" href="">MORENT</a>
+          </div>
+          <div class="main_right">
+            <button class="none_border">
+              <img class="img_height" src="./imges/search-normal.png" alt="" />
+            </button>
+            <input
+              class="filter_right"
+              type="search"
+              placeholder="search more something here"
+            />
+            <button class="none_border">
+              <img class="img_height" src="./imges/filter.png" alt="" />
+            </button>
+          </div>
+          <!-- mobile -->
+          <div class="mob_version">
+            <button>
+              <img class="img_height" src="./imges/search-normal.png" alt="" />
+            </button>
+            <input type="search" placeholder="search more something here" />
+            <button>
+              <img class="img_height" src="./imges/filter.png" alt="" />
+            </button>
+          </div>
+          <!-- mobile -->
+          <div class="actions_info">
+            <div class="header__actions">
+              <button class="border_none">
+                <img class="img_height" src="./imges/heart.png" alt="" />
+              </button>
 
-            <div class="header_top">
-                 <button>
-                    
-                 </button>
+              <button class="border_none">
+                <img class="img_height" src="./imges/notification.png" alt="" />
+              </button>
+
+              <button class="border_none">
+                <img class="img_height" src="./imges/setting-2.png" alt="" />
+              </button>
             </div>
-            <div class="main_flex">
-                <div>
-                    <a class="main_logo" href="">MORENT</a>
-                </div>
-                <div class="main_right">
-                    <button class="none_border">
-                    <img class="img_height" src="./imges/search-normal.png" alt="">
-                    </button>
-                   <input class="filter_right" type="search" placeholder="search more something here">
-                   <button class="none_border">
-                    <img class="img_height" src="./imges/filter.png" alt="">
-                   </button> 
-                    
-                </div>
-                         
-                <div>
-                        <img class="img_height" src="./imges/heart.png" alt="">
-                        <img class="img_height" src="./imges/notification.png" alt="">
-                        <img class="img_height" src="./imges/setting-2.png" alt="">
-                        <img class="img_height" src="./imges/Image.png" alt="">
-                    
-                </div>    
-            </div>
-            </div>
+
+            <button class="border_none">
+              <img class="img_height" src="./imges/Image.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
 
     <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="backgraund_one main_text_color">
+            <h4>
+              The Best Platform <br />
+              for Car Rental
+            </h4>
+            <div>
+              <h5>
+                Ease of doing a car rental safely and <br />
+                reliably. Of course at a low price.
+              </h5>
+              <button type="button" class="btn btn-primary">Rental Car</button>
+              <div>
+                <img class="main_hight" src="./imges/koennigsegt.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="backgraund_two main_text_color">
+            <h4>
+              Easy way to rent a <br />
+              car at a low price
+            </h4>
+            <div>
+              <h5>
+                Providing cheap car rental services <br />
+                and safe and comfortable facilities.
+              </h5>
+              <button type="button" class="btn btn-primary">Rental Car</button>
+              <div>
+                <img class="main_hight" src="./imges/gtr r35.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page_backgraund">
+      <div class="container">
         <div class="row">
-            <div class="col">
-                <div class="backgraund_one main_text_color">
-                    <h4>
-                        The Best Platform <br>
-                        for Car Rental
-                    </h4>
-                    <div>
-                        <h5>
-                            Ease of doing a car rental safely and <br>
-                            reliably. Of course at a low price.
-                        </h5>
-                        <button type="button" class="btn btn-primary">Rental Car</button>
-                        <div><img class="main_hight" src="./imges/koennigsegt.png" alt=""></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="backgraund_two main_text_color">
-                    <h4 >
-                        Easy way to rent a <br>
-                        car at a low price
-                    </h4>
-                    <div>
-                        <h5>
-                            Providing cheap car rental services <br>
-                            and safe and comfortable facilities.
-                        </h5>
-                        <button type="button" class="btn btn-primary">Rental Car</button>
-                        <div><img class="main_hight" src="./imges/gtr r35.png" alt=""></div>
-                    </div>
-                </div>
-                    </div>
-            </div>
+          <div class="col-5 main_card">
+            <div>
+              <input type="radio" />
+              <p>Pick - Up</p>
             </div>
 
-            <div class="container">
-                <div class="main_line">
-                    <h5>Koenigsegg</h5>
-                    <img src="./imges/heart.png" alt="">
+            <div>
+              <h5>Locations</h5>
+              <p>Select your city</p>
+            </div>
+            <div>
+              <h5>Date</h5>
+              <p>Select your date</p>
+            </div>
+            <div>
+              <h4>Date</h4>
+              <p>Select your time</p>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div>
+              <ion-icon name="heart"></ion-icon>
+            </div>
+          </div>
+
+          <div class="col-5 main_card">
+            <div>
+              <input type="radio" />
+              <p>Drop - Off</p>
+            </div>
+            <div>
+              <h5>Locations</h5>
+              <p>Select your city</p>
+            </div>
+            <div>
+              <h5>Date</h5>
+              <p>Select your date</p>
+            </div>
+            <div>
+              <h4>Date</h4>
+              <p>Select your time</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="another_type">
+          <p>Popular Car</p>
+        </div>
+        <div class="row">
+          <div class="col-3 carts_backgraund">
+            <div>
+              <div class="main_line">
+                <h5>Koenigsegg</h5>
+                <img class="cart_heart" src="./imges/heart.png" alt="" />
+              </div>
+              <div>
+                <p class="cart_color">Sport</p>
+              </div>
+
+              <div>
+                <img class="cart_img" src="./imges/koennigsegt.png" alt="" />
+              </div>
+
+              <div class="main_card">
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/gas-station.png"
+                    alt=""
+                  />
+                  <p class="cart_color">90L</p>
+                </div>
+                <div class="main_card">
+                  <img class="card_width" src="./imges/Car.png" alt="" />
+                  <p class="cart_color">Manual</p>
+                </div>
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/profile-2user.png"
+                    alt=""
+                  />
+
+                  <p class="cart_color">2people</p>
+                </div>
+              </div>
+              <div class="cart_end">
+                <p>$99.00/day</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 carts_backgraund">
+            <div>
+              <div class="main_line">
+                <h5>Nissan GTR</h5>
+                <img class="cart_heart" src="./imges/heart.png" alt="" />
+              </div>
+              <div>
+                <p class="cart_color">Sport</p>
+              </div>
+
+              <div>
+                <img class="cart_img" src="./imges/gtr r35.png" alt="" />
+              </div>
+
+              <div class="main_card">
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/gas-station.png"
+                    alt=""
+                  />
+                  <p class="cart_color">90L</p>
+                </div>
+                <div class="main_card">
+                  <img class="card_width" src="./imges/Car.png" alt="" />
+                  <p class="cart_color">Manual</p>
+                </div>
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/profile-2user.png"
+                    alt=""
+                  />
+
+                  <p class="cart_color">2people</p>
+                </div>
+              </div>
+              <div class="cart_end">
+                <p>$80.00/day</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+              <p>$100.00</p>
+            </div>
+          </div>
+          <div class="col-3 carts_backgraund">
+            <div>
+              <div class="main_line">
+                <h5>Rolls - Royce</h5>
+                <img class="cart_heart" src="./imges/heart.png" alt="" />
+              </div>
+              <div>
+                <p class="cart_color">Sedan</p>
+              </div>
+
+              <div>
+                <img class="cart_img" src="./imges/Car (1).png" alt="" />
+              </div>
+
+              <div class="main_card">
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/gas-station.png"
+                    alt=""
+                  />
+                  <p class="cart_color">70L</p>
+                </div>
+                <div class="main_card">
+                  <img class="card_width" src="./imges/Car.png" alt="" />
+                  <p class="cart_color">Manual</p>
+                </div>
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/profile-2user.png"
+                    alt=""
+                  />
+
+                  <p class="cart_color">4people</p>
+                </div>
+              </div>
+              <div class="cart_end">
+                <p>$96.00/day</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 carts_backgraund">
+            <div>
+              <div class="main_line">
+                <h5>Nissan GTR</h5>
+                <img class="cart_heart" src="./imges/heart.png" alt="" />
+              </div>
+              <div>
+                <p class="cart_color">Sport</p>
+              </div>
+
+              <div>
+                <img class="cart_img" src="./imges/gtr r35.png" alt="" />
+              </div>
+
+              <div class="main_card">
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/gas-station.png"
+                    alt=""
+                  />
+                  <p class="cart_color">90L</p>
+                </div>
+                <div class="main_card">
+                  <img class="card_width" src="./imges/Car.png" alt="" />
+                  <p class="cart_color">Manual</p>
+                </div>
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/profile-2user.png"
+                    alt=""
+                  />
+
+                  <p class="cart_color">2people</p>
+                </div>
+              </div>
+
+              <div class="cart_end">
+                <div>
+                  <p>$80.00/day</p>
+
+                  <p>$100.00</p>
                 </div>
                 <div>
-                    <p>Sport</p>
+                  <button type="button" class="btn btn-primary">Primary</button>
                 </div>
-                <div>
-                    <img src="./imges/gas-station.png" alt="">
-                    <img src="./imges/Car.png" alt="">
-                    <img src="./imges/profile-2user.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="another_type">
+            <h6>Recomendation Car</h6>
+          </div>
+          <div class="col-3 carts_backgraund">
+            <div>
+              <div class="main_line">
+                <h5>Nissan GTR</h5>
+                <img class="cart_heart" src="./imges/heart.png" alt="" />
+              </div>
+              <div>
+                <p class="cart_color">Sport</p>
+              </div>
+
+              <div>
+                <img class="cart_img" src="./imges/gtr r35.png" alt="" />
+              </div>
+
+              <div class="main_card">
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/gas-station.png"
+                    alt=""
+                  />
+                  <p class="cart_color">90L</p>
                 </div>
-               
-            </div>
+                <div class="main_card">
+                  <img class="card_width" src="./imges/Car.png" alt="" />
+                  <p class="cart_color">Manual</p>
+                </div>
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/profile-2user.png"
+                    alt=""
+                  />
 
-            
-            
-     <footer>
-        <div class="container">
-            <div class="header_line">
-               <div class="header_line_right">
-                   <a class="main_footer_logo" href="">MORENT</a>
-                   <h6 class="main_text">
-                       Our vision to provide convenience <br>
-                       and help increanse your sales business
-                   </h6> 
-               </div>
-               
-               
-                   <div>
-                       <h4 class="main_list_center">About</h4>
-                       <ul class="list_style">
-                           <li>How it works</li>
-                           <li>Featured</li>
-                           <li>Partnership</li>
-                           <li>Bussines Relation</li>
-                       </ul>
-                   </div>
-                   <div>
-                       <h5 class="main_list_center" >Community</h5>
-                       <ul class="list_style">
-                           <li>Events</li>
-                           <li>BLog</li>
-                           <li>Podcast</li>
-                           <li>Invite a friend</li> 
-                       </ul>
-                   </div>
-                   <div>
-                       <h5 class="main_list_center" >Socials</h5>
-                       <ul class="list_style">
-                           <li>Discord</li>
-                           <li>Instagram</li>
-                           <li>Facebook</li>
-                           <li>Twitter</li>
-                       </ul>
-                   </div>
-           
-                
-               
-               </div>
-   
-               <hr>
-
-                   <div class="main_end">
-                       <p class="end_start main_font_style">©2022 MORENT. All rights reserved</p>
-                       <p class="main_font_style">Privacy & Policy</p>
-                       <p class="main_font_style">Terms & Condition</p>
-                   </div>
-                  
-               </div>
-       
-                
+                  <p class="cart_color">2people</p>
+                </div>
+              </div>
+              <div class="cart_end">
+                <p>$80.00/day</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+              <p>$100.00</p>
             </div>
-   
+          </div>
+          <div class="col-3 carts_backgraund">
+            <div>
+              <div class="main_line">
+                <h5>Koenigsegg</h5>
+                <img class="cart_heart" src="./imges/heart.png" alt="" />
+              </div>
+              <div>
+                <p class="cart_color">Sport</p>
+              </div>
+
+              <div>
+                <img class="cart_img" src="./imges/koennigsegt.png" alt="" />
+              </div>
+
+              <div class="main_card">
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/gas-station.png"
+                    alt=""
+                  />
+                  <p class="cart_color">90L</p>
+                </div>
+                <div class="main_card">
+                  <img class="card_width" src="./imges/Car.png" alt="" />
+                  <p class="cart_color">Manual</p>
+                </div>
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/profile-2user.png"
+                    alt=""
+                  />
+
+                  <p class="cart_color">2people</p>
+                </div>
+              </div>
+              <div class="cart_end">
+                <p>$99.00/day</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 carts_backgraund">
+            <div>
+              <div class="main_line">
+                <h5>Koenigsegg</h5>
+                <img class="cart_heart" src="./imges/heart.png" alt="" />
+              </div>
+              <div>
+                <p class="cart_color">Sport</p>
+              </div>
+
+              <div>
+                <img class="cart_img" src="./imges/koennigsegt.png" alt="" />
+              </div>
+
+              <div class="main_card">
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/gas-station.png"
+                    alt=""
+                  />
+                  <p class="cart_color">90L</p>
+                </div>
+                <div class="main_card">
+                  <img class="card_width" src="./imges/Car.png" alt="" />
+                  <p class="cart_color">Manual</p>
+                </div>
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/profile-2user.png"
+                    alt=""
+                  />
+
+                  <p class="cart_color">2people</p>
+                </div>
+              </div>
+              <div class="cart_end">
+                <p>$99.00/day</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div>
+              <div class="main_line">
+                <h5>Koenigsegg</h5>
+                <img class="cart_heart" src="./imges/heart.png" alt="" />
+              </div>
+              <div>
+                <p class="cart_color">Sport</p>
+              </div>
+
+              <div>
+                <img class="cart_img" src="./imges/koennigsegt.png" alt="" />
+              </div>
+
+              <div class="main_card">
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/gas-station.png"
+                    alt=""
+                  />
+                  <p class="cart_color">90L</p>
+                </div>
+                <div class="main_card">
+                  <img class="card_width" src="./imges/Car.png" alt="" />
+                  <p class="cart_color">Manual</p>
+                </div>
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/profile-2user.png"
+                    alt=""
+                  />
+
+                  <p class="cart_color">2people</p>
+                </div>
+              </div>
+              <div class="cart_end">
+                <p>$99.00/day</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 carts_backgraund">
+            <div>
+              <div class="main_line">
+                <h5>Nissan GTR</h5>
+                <img class="cart_heart" src="./imges/heart.png" alt="" />
+              </div>
+              <div>
+                <p class="cart_color">Sport</p>
+              </div>
+
+              <div>
+                <img class="cart_img" src="./imges/gtr r35.png" alt="" />
+              </div>
+
+              <div class="main_card">
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/gas-station.png"
+                    alt=""
+                  />
+                  <p class="cart_color">90L</p>
+                </div>
+                <div class="main_card">
+                  <img class="card_width" src="./imges/Car.png" alt="" />
+                  <p class="cart_color">Manual</p>
+                </div>
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/profile-2user.png"
+                    alt=""
+                  />
+
+                  <p class="cart_color">2people</p>
+                </div>
+              </div>
+              <div class="cart_end">
+                <p>$80.00/day</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+              <p>$100.00</p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div>
+              <div class="main_line">
+                <h5>Koenigsegg</h5>
+                <img class="cart_heart" src="./imges/heart.png" alt="" />
+              </div>
+              <div>
+                <p class="cart_color">Sport</p>
+              </div>
+
+              <div>
+                <img class="cart_img" src="./imges/koennigsegt.png" alt="" />
+              </div>
+
+              <div class="main_card">
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/gas-station.png"
+                    alt=""
+                  />
+                  <p class="cart_color">90L</p>
+                </div>
+                <div class="main_card">
+                  <img class="card_width" src="./imges/Car.png" alt="" />
+                  <p class="cart_color">Manual</p>
+                </div>
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/profile-2user.png"
+                    alt=""
+                  />
+
+                  <p class="cart_color">2people</p>
+                </div>
+              </div>
+              <div class="cart_end">
+                <p>$99.00/day</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div>
+              <div class="main_line">
+                <h5>Koenigsegg</h5>
+                <img class="cart_heart" src="./imges/heart.png" alt="" />
+              </div>
+              <div>
+                <p class="cart_color">Sport</p>
+              </div>
+
+              <div>
+                <img class="cart_img" src="./imges/koennigsegt.png" alt="" />
+              </div>
+
+              <div class="main_card">
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/gas-station.png"
+                    alt=""
+                  />
+                  <p class="cart_color">90L</p>
+                </div>
+                <div class="main_card">
+                  <img class="card_width" src="./imges/Car.png" alt="" />
+                  <p class="cart_color">Manual</p>
+                </div>
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/profile-2user.png"
+                    alt=""
+                  />
+
+                  <p class="cart_color">2people</p>
+                </div>
+              </div>
+              <div class="cart_end">
+                <p>$99.00/day</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 carts_backgraund">
+            <div>
+              <div class="main_line">
+                <h5>Koenigsegg</h5>
+                <img class="cart_heart" src="./imges/heart.png" alt="" />
+              </div>
+              <div>
+                <p class="cart_color">Sport</p>
+              </div>
+
+              <div>
+                <img class="cart_img" src="./imges/koennigsegt.png" alt="" />
+              </div>
+
+              <div class="main_card">
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/gas-station.png"
+                    alt=""
+                  />
+                  <p class="cart_color">90L</p>
+                </div>
+                <div class="main_card">
+                  <img class="card_width" src="./imges/Car.png" alt="" />
+                  <p class="cart_color">Manual</p>
+                </div>
+                <div class="main_card">
+                  <img
+                    class="card_width"
+                    src="./imges/profile-2user.png"
+                    alt=""
+                  />
+
+                  <p class="cart_color">2people</p>
+                </div>
+              </div>
+              <div class="cart_end">
+                <p>$99.00/day</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="more_info">
+          <button type="button" class="btn btn-secondary">Show more car</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <footer>
+      <div class="container">
+        <div class="header_line">
+          <div class="header_line_right">
+            <a class="main_footer_logo" href="">MORENT</a>
+            <h6 class="main_text">
+              Our vision to provide convenience <br />
+              and help increanse your sales business
+            </h6>
+          </div>
+
+          <div>
+            <h4 class="main_list_center">About</h4>
+            <ul class="list_style">
+              <li>How it works</li>
+              <li>Featured</li>
+              <li>Partnership</li>
+              <li>Bussines Relation</li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="main_list_center">Community</h5>
+            <ul class="list_style">
+              <li>Events</li>
+              <li>BLog</li>
+              <li>Podcast</li>
+              <li>Invite a friend</li>
+            </ul>
+          </div>
+          <div>
+            <h5 class="main_list_center">Socials</h5>
+            <ul class="list_style">
+              <li>Discord</li>
+              <li>Instagram</li>
+              <li>Facebook</li>
+              <li>Twitter</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div class="main_end">
+          <p class="end_start main_font_style">
+            ©2022 MORENT. All rights reserved
+          </p>
+          <p class="main_font_style">Privacy & Policy</p>
+          <p class="main_font_style">Terms & Condition</p>
+        </div>
+      </div>
     </footer>
-       
-         
-
-
-        
-        
-        
-            
-            
-    
-    
-  <!-- <button class="btn btn-m btn-primory btn-with-icon"> -->
-        <!-- <i>+</i> -->
-        <!-- <span>aaaa</span> -->
-      <!-- </button> -->
-      <!-- <button class="btn btn-m btn-secondary">bu btn secondary</button> -->
-    
-      
-      
-
-    
-  
-    
-    
-</body>
+  </body>
 </html>
