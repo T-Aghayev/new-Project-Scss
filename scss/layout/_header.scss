@@ -23,7 +23,6 @@
   .main_line {
     display: flex;
     justify-content: space-between;
-    
   }
 
   .img_height {
@@ -84,7 +83,7 @@
     padding: 15px 45px;
   }
 
-  .main_juj {
+  .select_info {
     display: flex;
   }
 
@@ -95,40 +94,108 @@
   }
 
   .cart_img {
-    height: 70px;
-    // margin-bottom: 64px;
+    height: 59px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: flex;
   }
 
   .main_card {
     display: flex;
-    gap: 10px;
+    gap: 7px;
+    justify-content: space-around;
+  }
+
+  .img-center {
+    display: flex;
+    justify-content: center;
   }
 
   .card_width {
-    height: 25px;
+    height: 19px;
+  }
+
+  .main_flip {
+    margin-top: 20px;
   }
 
   .cart_end {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .static_price{
+    margin-bottom: 4px;
+  }
+
+  .next_price {
+    font-size: 14px;
+  }
+
+  .main_price {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
   .cart_color {
     color: $secondary-300;
     // margin-bottom: 64px;
+    font-size: small;
   }
 
   .btn {
-   &.btn-secondary {
-      background-color: $information-700;
-      display: flex;
-      
-      
+    &.btn-info {
+      background-color: $primory-300;
+      color: aliceblue;
+      padding: 20px;
+      margin-top: 35px;
     }
   }
 
+  .chapter-view {
+    color: $primory-300;
+    font-size: large;
+  }
+
+  .main-input {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    margin-top: 30px;
+  }
+
+  .info-backgraund {
+    background-color: $secondary-300;
+  }
+
+  .main-chapter {
+    margin: 30px 0px;
+    color: $secondary-300;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+  }
+
+  .col-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  // .btn {
+  //  &.btn-secondary {
+  //     background-color: $information-700;
+  //     display: flex;
+
+  //   }
+  // }
+
   .cart_heart {
-    height: 24px;
+    height: 2px;
   }
 
   .another_type {
@@ -151,7 +218,6 @@
     color: $secondary-500;
   }
 
-  
   .mob_version {
     display: flex;
     display: none;
@@ -175,15 +241,25 @@
   }
 
   .carts_backgraund {
-    border-radius: 17px;
-    padding: 10px 15px;
+    border-radius: 16px;
+    padding: 10px 10px;
     background-color: $secondary-100;
-    
   }
 
-  .more_info{
+  .more_info {
     display: flex;
-    justify-content: center;
     margin: 40px;
+    justify-content: flex-end;
+  }
+
+  .choose_date {
+    background-color: $secondary-100;
+    border-radius: 10px;
+    margin-top: 28px;
+  }
+
+  .main_button_primory {
+    display: flex;
+    margin: auto;
   }
 }

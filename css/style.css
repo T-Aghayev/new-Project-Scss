@@ -134,7 +134,7 @@
   color: white;
   padding: 15px 45px;
 }
-.container .main_juj {
+.container .select_info {
   display: flex;
 }
 .container .border_none {
@@ -143,28 +143,80 @@
   background: transparent;
 }
 .container .cart_img {
-  height: 70px;
+  height: 59px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  display: flex;
 }
 .container .main_card {
   display: flex;
-  gap: 10px;
+  gap: 7px;
+  justify-content: space-around;
+}
+.container .img-center {
+  display: flex;
+  justify-content: center;
 }
 .container .card_width {
-  height: 25px;
+  height: 19px;
+}
+.container .main_flip {
+  margin-top: 20px;
 }
 .container .cart_end {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.container .static_price {
+  margin-bottom: 4px;
+}
+.container .next_price {
+  font-size: 14px;
+}
+.container .main_price {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .container .cart_color {
   color: #90a3bf;
+  font-size: small;
 }
-.container .btn.btn-secondary {
-  background-color: #2a60b7;
+.container .btn.btn-info {
+  background-color: #0a196f;
+  color: aliceblue;
+  padding: 20px;
+  margin-top: 35px;
+}
+.container .chapter-view {
+  color: #0a196f;
+  font-size: large;
+}
+.container .main-input {
   display: flex;
+  gap: 8px;
+  align-items: baseline;
+  margin-top: 30px;
+}
+.container .info-backgraund {
+  background-color: #90a3bf;
+}
+.container .main-chapter {
+  margin: 30px 0px;
+  color: #90a3bf;
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+}
+.container .col-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container .cart_heart {
-  height: 24px;
+  height: 2px;
 }
 .container .another_type {
   padding: 16px 0px;
@@ -201,12 +253,21 @@
   }
 }
 .container .carts_backgraund {
-  border-radius: 17px;
-  padding: 10px 15px;
+  border-radius: 16px;
+  padding: 10px 10px;
   background-color: #e0e9f4;
 }
 .container .more_info {
   display: flex;
-  justify-content: center;
   margin: 40px;
+  justify-content: flex-end;
+}
+.container .choose_date {
+  background-color: #e0e9f4;
+  border-radius: 10px;
+  margin-top: 28px;
+}
+.container .main_button_primory {
+  display: flex;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
